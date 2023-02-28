@@ -24,6 +24,9 @@
     "typeorm:revert-migration": "npm run typeorm -- -d ./config/typeorm.config.ts migration:revert"
   },
   "dependencies": {
+    "@deepstream/cache-redis": "^2.0.9",
+    "@deepstream/server": "^7.0.2",
+    "@deepstream/storage-postgres": "^3.0.4",
     "@nestjs/apollo": "^10.2.0",
     "@nestjs/common": "^9.0.0",
     "@nestjs/config": "^2.3.1",
