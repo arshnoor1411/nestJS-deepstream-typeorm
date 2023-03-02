@@ -1,5 +1,3 @@
-//import 'dotenv/config';
-
 const { Deepstream } = require('@deepstream/server');
 
 /*
@@ -9,7 +7,8 @@ The server can take
 3) left empty to load the base configuration from the config file located within the conf directory.
 4) pass some options, missing options will be merged from the base configuration.
 */
-const server = new Deepstream();
+
+const server = new Deepstream({});
 
 // start the server
 server.start();

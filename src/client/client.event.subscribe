@@ -1,0 +1,13 @@
+// Client A
+function eventCallback(data) {
+  //callback for incoming events
+}
+
+// //Subscribing to an event
+// client.event.subscribe('news/sports', eventCallback)
+
+// //Removing specific callback to the event
+// client.event.unsubscribe('news/sports', eventCallback)
+
+// //Removing all subscriptions to the event
+// client.event.unsubscribe('news/sports')
